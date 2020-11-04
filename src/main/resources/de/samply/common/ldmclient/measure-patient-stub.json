@@ -1,0 +1,62 @@
+{
+  "resourceType": "Measure",
+  "status": "active",
+  "subjectCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/resource-types",
+        "code": "Patient"
+      }
+    ]
+  },
+  "library": [
+  ],
+  "scoring": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/measure-scoring",
+        "code": "cohort"
+      }
+    ]
+  },
+  "group": [
+    {
+      "population": [
+        {
+          "code": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                "code": "initial-population"
+              }
+            ]
+          },
+          "criteria": {
+            "language": "text/cql",
+            "expression": "InInitialPopulation"
+          }
+        }
+      ],
+      "stratifier": [
+        {
+          "code": {
+            "text": "Gender"
+          },
+          "criteria": {
+            "language": "text/cql",
+            "expression": "Gender"
+          }
+        },
+        {
+          "code": {
+            "text": "Age"
+          },
+          "criteria": {
+            "language": "text/cql",
+            "expression": "AgeClass"
+          }
+        }
+      ]
+    }
+  ]
+}
