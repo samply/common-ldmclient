@@ -1,4 +1,3 @@
-UNMERGED BRANCH -CHANGES FROM OTHER SAMPLY TEAMS MISSING
 # Samply Common LDM Client
 
 Samply Common LDM Client is an abstract library for the communication with **L**ocal **D**ata**m**anagement systems.
