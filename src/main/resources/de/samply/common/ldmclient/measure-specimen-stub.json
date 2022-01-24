@@ -46,6 +46,15 @@
             "language": "text/cql",
             "expression": "SampleMaterialTypeCategory"
           }
+        },
+        {
+          "code": {
+            "text": "Custodian"
+          },
+          "criteria": {
+            "language": "text/cql",
+            "expression": "Custodian"
+          }
         }
       ]
     }
