@@ -3,16 +3,19 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
+
+## [6.1.0 - 2022-10-19]
+## Security
+- Updated Dependencies
+
 ## [6.0.1 - 2022-01-28]
-- Github release
-## Added
+### Added
 - FHIR Stratum for CollectionIds
 
 ## [6.0.0 - 2020-11-04]
-- Github release
 ### Changed
 - Samply parent 11.1.0
-## Added
+### Added
 - Github Actions
 - Google Code Style
 
