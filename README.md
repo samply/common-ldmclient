@@ -1,5 +1,8 @@
 # Samply Common LDM Client
 
+[![Build](https://github.com/samply/common-ldmclient/actions/workflows/build.yml/badge.svg)](https://github.com/samply/common-ldmclient/actions/workflows/build.yml)
+![Latest Release](https://img.shields.io/github/v/release/samply/common-ldmclient)
+
 Samply Common LDM Client is an abstract library for the communication with **L**ocal **D**ata**m**anagement systems.
 
 ## Features
@@ -31,12 +34,12 @@ To use the module, include the following artifact in your project.
 </dependency>
 ```
 
- ## License
+## License
         
- Copyright 2020 The Samply Development Community
-        
- Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
-        
- http://www.apache.org/licenses/LICENSE-2.0
-        
- Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+Copyright 2020 - 2022 The Samply Community
+       
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+       
+http://www.apache.org/licenses/LICENSE-2.0
+       
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
