@@ -5,7 +5,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [6.1.0 - 2022-10-19]
-## Security
+### Security
 - Updated Dependencies
 
 ## [6.0.1 - 2022-01-28]
